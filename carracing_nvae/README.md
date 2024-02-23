@@ -1,4 +1,3 @@
-
 ## Car Racing Experiment (carracing_nvae)
 
 ### Overview
@@ -25,7 +24,7 @@ In addition to the primary CarRacing-v2 environment, an experimentation with a d
   - traincontroller.py
   - trainmdrnn.py
   - trainvae.py
-- **README**
+  - README.md
 
 ### Construction of Dream Car Racing-v2 Environment
 
