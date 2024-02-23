@@ -7,25 +7,6 @@ The Car Racing experiment involves training a World Models-based agent to naviga
 
 In addition to the primary CarRacing-v2 environment, an experimentation with a dream car racing environment has been conducted. This dream environment is constructed utilizing the learned environment model and policy from the car racing-v2 task.
 
-### Directory Structure
-- carracing_nvae
-  - data
-  - docs/img
-  - envs
-  - logs
-  - models
-  - nvae
-  - tests
-  - utils
-  - carracing_nvae.yaml
-  - dream_output.avi
-  - output.avi
-  - requirements.txt
-  - traincontroller.py
-  - trainmdrnn.py
-  - trainvae.py
-  - README.md
-
 ### Construction of Dream Car Racing-v2 Environment
 
 The dream car racing-v2 environment is constructed differently from the primary environment to offer an alternative simulation for exploring the agent's performance under varied conditions. The following highlights the unique steps for the dream environment:
