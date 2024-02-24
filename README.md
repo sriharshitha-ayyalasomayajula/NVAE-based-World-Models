@@ -2,7 +2,7 @@
 
 ## Overview
 
-This GitHub repository hosts the thesis project, " A Deep Hierarchical Variational Autoencoder for World Models in Complex Reinforcement Learning Environments." In response to the escalating demand for sample-efficient and robust reinforcement learning agents, particularly in domains like robotics, autonomous systems, and resource allocation problems, Model-based reinforcement learning (MBRL) approaches have emerged as a promising solution, leveraging learned models of the environment to plan and make optimal decisions, thereby reducing the need for extensive real-world interactions.
+This GitHub repository hosts the implementation of the thesis project, " A Deep Hierarchical Variational Autoencoder for World Models in Complex Reinforcement Learning Environments." Model-based reinforcement learning (MBRL) approaches have emerged as a promising solution for sample-efficient and robust reinforcement learning agents, leveraging learned models of the environment to plan and make optimal decisions, thereby reducing the need for extensive real-world interactions.
 
 The project focuses on the World Models paradigm, a model-based RL approach utilizing generative neural network models to learn a compressed spatial and temporal representation of the environment. Traditional variational autoencoders (VAE) are commonly employed in this paradigm to encode environment features into latent representations. However, recent research has unveiled that the constraints of traditional VAEs can lead to information loss or distortion during compression, hindering the agent's ability to learn accurate representations of complex environments.
 
@@ -14,9 +14,7 @@ In tandem with this thesis project, a corresponding research paper has been acce
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
-
-- **Python:** This project is written in Python. Make sure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+- **Python:** This project is written in Python. You can download it from [python.org](https://www.python.org/downloads/).
 - **PyTorch:** Install PyTorch by following the instructions on the official PyTorch website:
   - For CPU only:
      ```bash
@@ -28,7 +26,6 @@ Before you begin, ensure you have met the following requirements:
         pip install torch==1.10.0+cu111 torchvision==0.11.1+cu111 torchaudio==0.10.0+cu111 -f https://download.pytorch.org/whl/cu111.html
      ```
  Replace the version numbers with the latest stable release available from the [PyTorch website](https://pytorch.org/get-started/locally/).
-
 
 - **Dependencies:** Install the required dependencies using the following command:
 
