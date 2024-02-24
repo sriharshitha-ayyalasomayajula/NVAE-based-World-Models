@@ -47,7 +47,7 @@ Before you begin, ensure you have met the following requirements:
 
 #### GIF: Dream Car Racing-v2 Task
 
-![Dream Car Racing-v2 Task](carracing_nvae/docs/img/trained.gif)
+![Dream Car Racing-v2 Task](carracing_nvae/docs/img/trained.gif, width="400")
 
 
 ### Panda-Gym Reach Experiment (panda_gym-Reach) - Reach Task Performance
