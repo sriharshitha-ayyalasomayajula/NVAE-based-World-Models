@@ -1,4 +1,6 @@
 
+The commands below are historical project notes. They are not maintained as a guaranteed reproduction procedure for the current checkout.
+
 ## Panda-Gym Reach Experiment (panda_gym-Reach)
 
 ### Overview
